@@ -10,13 +10,13 @@
 	<div class="header">
 		<a id="logo" href="home.html"><u><img src="logos/@ubuntu.png" alt="Webuntu" id="img" height="70px" width=80px"></u></a>
 		<ul id="header_bar">
-			<li><a href="home.html">Home</a></li>
+			<li id="home"><a href="home.html">Home</a></li>
 			<li><a href="#About">About</a></li>
 			<li><a href="#Contact">Contact us</a></li>
 			<li><a href="login.html">Sign In/Sign Up</a></li>
 		</ul>
 		<br>
-		<h1 id="heading"><b><i><strong><em>Webuntu <sup>@sh</sup></em></strong></i></b></h1>
+		<a href="home.html"><h1 id="heading"><b><i><strong><em>Webuntu <sup>@sh</sup></em></strong></i></b></h1></a>
 		<div id="tym">Tym:</div>
 	</div>
 		<!--<button onmouseover="this.innerHTML =new Date().toDateString();">The time is?</button>-->		
@@ -36,17 +36,25 @@
 		<script>
 			function tym_btn() {
 				//!!!Date!!!
+				//GMT Time
 				var d = new Date().toUTCString();
-				//!!!Array!!!
+				//Local Time
+				var l= new Date().toLocaleString();
+				//!!!GMT Array!!!
 				var date_array=new Array();
 				date_array=d.split(" ");
+				//Local Array
+				var local_array=new Array();
+				local_array=l.split(" ");
+				//alert(local_array);
+				local_date=local_array[0].split("/");
+				//alert(local_date);
 
-
-						document.getElementById("tym").innerHTML = date_array[0]+date_array[1]+" "+date_array[2];
+						document.getElementById("tym").innerHTML = date_array[0]+local_date[1]+" "+date_array[2];
 						//document.getElementById("tym").innerHTML = d;
 			//!!!Node!!!
 						var para = document.createElement("p");
-						var Time=document.createTextNode(date_array[4]);
+						var Time=document.createTextNode(local_array[1]+" "+local_array[2]);
 						document.getElementById("tym").appendChild(para);
 						para.appendChild(Time);
 					}
@@ -64,7 +72,7 @@
 	<div class="history" id="history">
 		
 	</div>
-	<div class="operations" id="operations">
+	<div class="operations" >
 		<ul id="operations">
 			<li id="basic_op" class="basic_op"><a href="basic.html">Basic Operations</a></li>
 			<li id="admin" class="admin"><a href="admin.html">Admin</a></li>
