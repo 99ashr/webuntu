@@ -12,16 +12,17 @@
 		<ul id="header_bar">
 			<li><a href="home.html">Home</a></li>
 			<li><a href="#About">About</a></li>
-			<li><a href="#Contact us">Contact us</a></li>
+			<li><a href="#Contact">Contact us</a></li>
 			<li><a href="login.html">Sign In/Sign Up</a></li>
 		</ul>
-		<a href="home.html"><img src="@ubuntu.png" alt="Webuntu" id="img" height="70px" width=80px"></a><br>
+		<a href="home.html"><u><img src="logos/@ubuntu.png" alt="Webuntu" id="img" height="70px" width=80px"></u></a>
+		<br>
 		<!--<button onmouseover="this.innerHTML =new Date().toDateString();">The time is?</button>-->
 		<div id="tym">Tym:</div>
 		
 		<script>
 			var myimg=document.getElementById("img");
-			var imgArray=["@ubuntu.png","ubuntu_owl.png","cononical_circle.png"];
+			var imgArray=["logos/ubuntu_owl.png","logos/cononical_circle.png","logos/@ubuntu.png"];
 			var imgIndex=0;
 			function chnglogo () {
 				myimg.setAttribute("src", imgArray[imgIndex]);
@@ -52,6 +53,7 @@
 			//tym_btn();
 			setInterval(tym_btn,1000);
 		</script>
+
 	</div>
 	<div class="mostViewed" id="mostViewed">
 		
@@ -72,6 +74,32 @@
 		</ul>
 	</div>
 	<div class="terminal" id="terminal"><a href="terminal.html"> Terminal</a></div>
+	<hr style="border:solid 1px firebrick;">
+	<div class="footer" id="footer">
+		<form action="">
+			<textarea name="comment" id="comment" cols="60" rows="5" placeholder="Add Your Comments Here!"></textarea>
+			<br>
+			<button type="submit">comment</button>
+		</form>
+					<div id="showcomment" class="showcomment">
+						
+					</div>
+			<h1 id="About"><b><i><u>About us: </u></i></b></h1>
+			<p></p>
+			<b><i><u>
+						<h1 id="Contact">Contact Us:</h1>
+					</u></i></b>
+	
+			<ul class="Social" id="social">
+				<li id="fb"><a href=""></a></li>
+				<li id="fb"><a href=""></a></li>
+				<li id="fb"><a href=""></a></li>
+				<li id="fb"><a href=""></a></li>
+				<li id="fb"><a href=""></a></li>
+				<li id="fb"><a href=""></a></li>
+				
+			</ul>
+	</div>
 	
 </body>
 </html>
