@@ -7,7 +7,7 @@
 <body>
 	
 	<div class="header">
-		
+
 		<h1 id="heading">Welcome to <b><i><strong><em>Webuntu <sup>@sh</sup></em></strong></i></b></h1>
 		<ul id="header_bar">
 			<li><a href="home.html">Home</a></li>
@@ -15,7 +15,9 @@
 			<li><a href="#Contact us">Contact us</a></li>
 			<li><a href="login.html">Sign In/Sign Up</a></li>
 		</ul>
-		<a href="home.html"><img src="@ubuntu.png" alt="Webuntu" id="img" height="70px" width=80px"></a>
+		<a href="home.html"><img src="@ubuntu.png" alt="Webuntu" id="img" height="70px" width=80px"></a><br>
+		<!--<button onmouseover="this.innerHTML =new Date().toDateString();">The time is?</button>-->
+		<div id="tym">Tym:</div>
 		
 		<script>
 			var myimg=document.getElementById("img");
@@ -29,6 +31,26 @@
 					}
 			}
 			setInterval(chnglogo,3000);
+		</script>
+		<script>
+			function tym_btn() {
+				//!!!Date!!!
+				var d = new Date().toUTCString();
+				//!!!Array!!!
+				var date_array=new Array();
+				date_array=d.split(" ");
+
+
+						document.getElementById("tym").innerHTML = date_array[0]+date_array[1]+" "+date_array[2];
+						//document.getElementById("tym").innerHTML = d;
+			//!!!Node!!!
+						var para = document.createElement("p");
+						var Time=document.createTextNode(date_array[4]);
+						document.getElementById("tym").appendChild(para);
+						para.appendChild(Time);
+					}
+			//tym_btn();
+			setInterval(tym_btn,1000);
 		</script>
 	</div>
 	<div class="mostViewed" id="mostViewed">
