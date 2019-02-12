@@ -106,7 +106,7 @@ a:active {
 /*
 .mostViewed{
 	 border: 1px outset #F70025;
-	border-radius: 10px;
+	 border-radius: 10px;
 		-moz-border-radius: 10px;
 		-webkit-border-radius: 10px;
 }*/
@@ -146,5 +146,48 @@ a:active {
 /*!!Terminal!!!*/
 .terminal{
 	font-size: 40px;
+	 border: 1px outset #323232;
+	 border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
 	text-align: center;
+}
+
+/*!!!Footer List i.e; Contact us!!!*/
+.footer ul{
+	margin-top: 0px;
+	float: right;
+	list-style-type: none;
+}
+.footer ul li{
+	margin-top: 19px;
+	display: inline-block;
+}
+.footer ul.social_logo li a{
+	background-color: #ffffff;
+	color: #ffffff;
+}
+.footer ul.social_logo li#git{
+	transform: translate(-427%,0%);
+}
+.footer ul.social_logo li#linkedin{
+	transform: translate(-375%,0%);
+}
+.footer ul.social_logo li#twitter{
+	transform: translate(-323%,0%);
+}
+.footer ul.social_logo li#google{
+	transform: translate(-285%,0%);
+}
+.footer ul.social_logo li#wa{
+	transform: translate(-200%,0%);
+}
+.footer ul.social_logo li#fb{
+	transform: translate(-127%,0%);
+}
+.footer ul.social_logo li#insta{
+	transform: translate(-43%,0%);
+}
+.footer ul.social li{
+	transform: translate(0%,0%);
 }
