@@ -29,11 +29,13 @@ body{
 	background-position: center;
 	text-indent: 20px;
 }
+/*!!!All List Style!!!*/
 ul{
 	list-style-type: none;
 }
+/*!!!Heading!!!*/
 h1#heading{
-	margin-top: 5%;
+	margin-top: 8%;
 	color: #ffffff;
 	padding: 1px;
 	opacity: 0.8;
@@ -42,35 +44,41 @@ h1#heading{
 	text-align: center;
 	text-decoration: underline;
 }
+/*!!!Logo!!!*/
 #logo #img{
 	position: absolute;
 
 }
+/*!!!Header List ul!!!*/
 .header #header_bar{
 	margin-top: 0px;
 	float: right;
 	list-style-type: none;
 }
+/*!!!Header List li*/
 .header #header_bar li{
-	margin-top: 0px;
+	margin-top: 19px;
 	display: inline-block;
 }
+/*!!!Home Link in Header!!!*/
 .header ul li#home a{
 	background-color: firebrick;
 	color: #ffffff;
 }
+/*!!!Links in Header!!!*/
 .header #header_bar li a{
 	border: 1px outset transparent;
 	border-radius: 10px;
 		-moz-border-radius: 10px;
 		-webkit-border-radius: 10px;
 }
+/*!!!All Links!!!*/
 a:link {
-	color: firebrick;
+	color: #FB6542;
 	text-decoration: none;
 }
 a:visited {
-	color: #FB6542;
+	color: seagreen;
 }
 a:hover {
 	transition: 0.6s ease;
@@ -81,39 +89,62 @@ a:hover {
 a:active {
 	color: darkcyan;
 }
-
+/*Time in Header!!!*/
 .header #tym{
 	text-align: center;
 	color: firebrick;
 	font-size: 30px;
 	margin-top: 0px;
+	margin-top: 0px;
 }
+/*!!!Next Node!!!*/
 .header #tym p{
 	color: chocolate;
 	font-size: 30px; 	
-	margin-top: 0px;
+	margin-top: 2px;
 }
-
+/*
 .mostViewed{
-	 /*border: 1px outset #F70025;
+	 border: 1px outset #F70025;
 	border-radius: 10px;
 		-moz-border-radius: 10px;
-		-webkit-border-radius: 10px;*/
-}
+		-webkit-border-radius: 10px;
+}*/
 
 .operations{
-	background-color: black;
+	background-color: #191919;
 }
 .operations ul{
-	margin: 20%;
+	margin: 3%;
+	font-size: 40px;
 }
-.operations ul li.admin{
-	text-align: right;
-	position: absolute;
-	top: 0%;
-	left: 60%;
-	transform: translate(-50%,-50%);
+
+/*.operations ul li.software{
+	display: inline-block;
+	transform: translate(27%,270%);
 }
-.operations ul li.software{
+.operations ul li.fun{
+	text-align: center;
+	margin-top: 3%;
+	transform: translate(-6%,-100%);
+}
+.operations ul li.admin_op{
+	text-align: left;
+	margin-top: 3%;
+	transform: translate(0%,0%);
+}
+.operations ul li.simple{
+	display: inline-block;
+	transform: translate(0%,0%);
+}
+.operations ul li.storage{
+	display: inline-block;
 	text-align: right;
+	transform: translate(132%,-100%);
+}*/
+
+/*!!Terminal!!!*/
+.terminal{
+	font-size: 40px;
+	text-align: center;
 }
