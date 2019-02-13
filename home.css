@@ -1,6 +1,8 @@
-/*!!!Animation!!!*/
-@import url(Animation_span.css);
-@import url(sheet01.css);
+@import url(sheet_anim.css);
+@import url(sheet_main.css);
+@import url(sheet_body.css);
+@import url(sheet_list.css);
+@import url(sheet_anchor.css);
 
 /*!!!Logo!!!*/
 #logo #img{
@@ -30,23 +32,6 @@
 		-moz-border-radius: 10px;
 		-webkit-border-radius: 10px;
 }
-/*!!!All Links!!!*/
-a:link {
-	color: #FB6542;
-	text-decoration: none;
-}
-a:visited {
-	color: seagreen;
-}
-a:hover {
-	transition: 0.6s ease;
-	background-color: firebrick;
-	color: #ffffff;
-	text-decoration: underline;
-}
-a:active {
-	color: darkcyan;
-}
 /*Time in Header!!!*/
 .header #tym{
 	text-align: center;
@@ -61,9 +46,23 @@ a:active {
 	font-size: 30px; 	
 	margin-top: 2px;
 }
+
+.header h1{
+	margin-top: 8%;
+	color: firebrick;
+	padding: 1px;
+	opacity: 0.8;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	text-decoration: underline;
+	//background-color: #fff;
+}
 h4{
+	color: #fff;
 	margin-left: 30px;
 }
+
 /*
 .mostViewed{
 	 border: 1px outset #F70025;
@@ -79,30 +78,6 @@ h4{
 	margin: 3%;
 	font-size: 40px;
 }
-
-/*.operations ul li.software{
-	display: inline-block;
-	transform: translate(27%,270%);
-}
-.operations ul li.fun{
-	text-align: center;
-	margin-top: 3%;
-	transform: translate(-6%,-100%);
-}
-.operations ul li.admin_op{
-	text-align: left;
-	margin-top: 3%;
-	transform: translate(0%,0%);
-}
-.operations ul li.simple{
-	display: inline-block;
-	transform: translate(0%,0%);
-}
-.operations ul li.storage{
-	display: inline-block;
-	text-align: right;
-	transform: translate(132%,-100%);
-}*/
 
 /*!!Terminal!!!*/
 .terminal{

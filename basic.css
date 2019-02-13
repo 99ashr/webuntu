@@ -1,8 +1,9 @@
-/*!!!Animation!!!*/
-
-@import url(Animation_span.css);
-
-@import url(sheet01.css);
+@import url(sheet_anim.css);
+@import url(sheet_main.css);
+@import url(sheet_body.css);
+@import url(sheet_heading.css);
+@import url(sheet_list.css);
+@import url(sheet_anchor.css);
 
 .loadingdiv{
 	margin:0;
