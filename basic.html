@@ -2,41 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>onHover</title>
+  <link rel="stylesheet" href="basic.css">
+  <title>Basic Operations</title>
 </head>
 <body>
-      <div id="parent" style="border: 1px solid red; padding: 10px;">
+<div class="loadingdiv">
+        <div class="welcome"><span>W</span><span>E</span><span>L</span><span>C</span><span>O</span><span>M</span><span>E</span>
+        </div>
+        <div class="to">
+        <span>T</span><span>O</span>
+        </div>
+        <div class="webuntu">
+        <span>W</span><span>E</span><span>B</span><span>U</span><span>N</span><span>T</span><span>U</span>
+        </div>
+</div>
+      <h1 id="heading">Welocme to the Basic Commands in Webuntu</h1>
+      
+      <ul>
+        <li id="pwd"><a href="pwd.html">Present Working Directory</a></li>
+      </ul>
 
-         I am the parent div.
-
-         <div id="child" style="border: 1px solid green; padding: 10px;">
-
-               I am a child div within the parent div.
-
-         </div>
-
-
-    </div>
-
-    <p>&nbsp;</p>
-
-    <input type="button" value="Remove Element" onmouseover="removeElement('parent','child');">
-
-
-    <script>
-        
-    function removeElement(parentDiv, childDiv){
-            if (document.getElementById(childDiv)) {     
-
-              var child = document.getElementById(childDiv);
-
-              var parent = document.getElementById(parentDiv);
-
-              parent.removeChild(child);
-
-         }
-
-    }
-    </script>
+  
+  
 </body>
 </html>
