@@ -1,0 +1,17 @@
+/*!!!All Links!!!*/
+a:link {
+	color: #FB6542;
+	text-decoration: none;
+}
+a:visited {
+	color: seagreen;
+}
+a:hover {
+	transition: 0.6s ease;
+	background-color: firebrick;
+	color: #ffffff;
+	text-decoration: underline;
+}
+a:active {
+	color: darkcyan;
+}
