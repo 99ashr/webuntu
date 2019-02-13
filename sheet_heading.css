@@ -1,0 +1,30 @@
+/*!!!Heading!!!*/
+
+h1{
+	margin-top: 8%;
+	color: firebrick;
+	padding: 1px;
+	opacity: 0.8;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	text-decoration: underline;
+	//background-color: #fff;
+}
+h3{
+	color: #AF2438;
+	border: 1px inset #F25C00;
+	border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+	//visibility: hidden;
+	text-decoration-color: #191919;
+	text-decoration-style: initial;
+}
+
+h4{
+	color: #fff;
+	
+}
