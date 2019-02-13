@@ -2,63 +2,8 @@
 
 @import url(Animation_span.css);
 
-body{
-	max-width: 1200px;
-	margin: auto;
-	font-family: ChunkFiveRegular, Georgia, serif;
-	font-size: 130%;
-	padding: 10px;
-	border: 3px double #34675C;
-	border-radius: 10px;
-		-moz-border-radius: 10px;
-		-webkit-border-radius: 10px;
-	background-color: #003B46;
-	//color: #E4EA8C;
-	text-decoration: none;
-	font-style: italic;
-	text-align: left;
-	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("backgrounds/604372-free-ubuntu-dark-wallpaper-2832x2124-xiaomi.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+@import url(sheet01.css);
 
-}
-
-/*!!!All Links!!!*/
-a:link {
-	color: #FB6542;
-	text-decoration: none;
-}
-a:visited {
-	color: seagreen;
-}
-a:hover {
-	transition: 0.6s ease;
-	background-color: firebrick;
-	color: #ffffff;
-	text-decoration: underline;
-}
-a:active {
-	color: darkcyan;
-}
-
-h1{
-	margin-top: 8%;
-	color: firebrick;
-	padding: 1px;
-	opacity: 0.8;
-	font-weight: bold;
-	font-style: italic;
-	text-align: center;
-	text-decoration: underline;
-	//background-color: #fff;
-}
-
-
-*{
-	margin: 0px;
-	padding: 0;
-}
 .loadingdiv{
 	margin:0;
 	padding: 0;

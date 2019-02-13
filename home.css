@@ -1,52 +1,7 @@
 /*!!!Animation!!!*/
-
 @import url(Animation_span.css);
-*{
-	margin: 0;
-	padding: 0;
-	font-family: Century Gothic;
-}
+@import url(sheet01.css);
 
-@font-face {
-	font-family: 'ChunkFiveRegular';
-	src: url('fonts/chunkfive.eot');
-}
-body{
-	max-width: 1200px;
-	margin: auto;
-	font-family: ChunkFiveRegular, Georgia, serif;
-	font-size: 130%;
-	padding: 10px;
-	border: 3px double #34675C;
-	border-radius: 10px;
-		-moz-border-radius: 10px;
-		-webkit-border-radius: 10px;
-	background-color: #003B46;
-	//color: #E4EA8C;
-	text-decoration: none;
-	font-style: italic;
-	text-align: left;
-	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("backgrounds/604372-free-ubuntu-dark-wallpaper-2832x2124-xiaomi.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	text-indent: 20px;
-}
-/*!!!All List Style!!!*/
-ul{
-	list-style-type: none;
-}
-/*!!!Heading!!!*/
-h1#heading{
-	margin-top: 8%;
-	color: #ffffff;
-	padding: 1px;
-	opacity: 0.8;
-	font-weight: bold;
-	font-style: italic;
-	text-align: center;
-	text-decoration: underline;
-}
 /*!!!Logo!!!*/
 #logo #img{
 	position: absolute;
@@ -105,6 +60,9 @@ a:active {
 	color: chocolate;
 	font-size: 30px; 	
 	margin-top: 2px;
+}
+h4{
+	margin-left: 30px;
 }
 /*
 .mostViewed{
@@ -194,5 +152,3 @@ a:active {
 .footer ul.social li{
 	transform: translate(0%,0%);
 }
-
-
