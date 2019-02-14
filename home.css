@@ -22,7 +22,8 @@ ul{
 
 /*!!!Header List li*/
 .header #header_bar li{
-	margin-top: 19px;
+	margin-top: 0px;
+	margin-left: 10px;
 	display: inline-block;
 }
 /*!!!Home Link in Header!!!*/
