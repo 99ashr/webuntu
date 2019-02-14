@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>List of Files/Dir</title>
+	<link rel="stylesheet" href="ls.css">
+</head>
+<body>
+
+	<iframe src="" name="votar"  frameborder="1"  height="30%" width="100%" style="display: none" ></iframe>
+			
+			<div class="loadingdiv">
+		        <span></span>
+		        <span></span>
+		        <span></span>
+		        <span></span>
+		        <span></span>
+			</div>
+
+
+	<div class="header">
+		<h1 class="heading">User Id</h1>
+	</div>
+	<div class="cmd">
+		<form action="/cgi/ls.cgi" method="POST" class="cmd" target="votar" >
+			<input type="submit" value="user_id  ">
+		</form>
+		<button type="button" onclick="loadDoc()">User Id</button>
+	</div>
+
+	<script type="text/javascript">function loadDoc() {
+	//var cmd =document.getElementById("xxx").value;
+	  var xhttp = new XMLHttpRequest();
+	  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("get_data").innerHTML =
+      this.responseText;
+    }
+  };
+  xhttp.open("GET", "/cgi/usr_id.cgi", true);
+  xhttp.send();
+}</script>
+
+	
+	<div id="get_data"></div>
+
+	
+</body>
+</html>

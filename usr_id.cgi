@@ -8,7 +8,7 @@ cgitb.enable()
 
 print 'Content-type: text/html'
 print ''
-print  ("<html><head><title>Present Working directory</title>")
+print  ("<html><head><title>List of Files & Directories</title>")
 print ("<body><h1>")
 
 
@@ -16,7 +16,7 @@ sys.stdout.flush()
 
 print "<pre>"
 
-os.getcwd()
+os.getuid()
 
 print "<pre>"
 
