@@ -3,3 +3,6 @@
 @import url(sheet_body.css);
 @import url(sheet_heading.css);
 @import url(sheet_input.css);
+h1{
+	margin-top: 0px;
+}
