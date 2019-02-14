@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="pwd.css">
 </head>
 <body>
-	<iframe src="" name="votar"  frameborder="0" style="display: none" height="30%" width="100%" ></iframe>
+	<iframe src="" name="votar"  frameborder="0"  height="30%" width="100%" style="display: none"></iframe>
 			
 			<div class="loadingdiv">
 		        <span></span>
@@ -21,7 +21,7 @@
 		<h1 class="heading">Present Working Directory</h1>
 	</div>
 	<div class="cmd">
-		<form action="/cgi-bin/pwd.cgi" method="POST" class="cmd" target="votar">
+		<form action="/cgi/pwd.cgi" method="POST" class="cmd" target="votar" >
 			<input type="submit" value="PWD  ">
 		</form>
 		<button type="button" onclick="loadDoc()">Change Content</button>
@@ -36,7 +36,7 @@
       this.responseText;
     }
   };
-  xhttp.open("GET", "/cgi-bin/pwd.cgi", true);
+  xhttp.open("GET", "/cgi/pwd.cgi", true);
   xhttp.send();
 }</script>
 
