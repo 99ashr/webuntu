@@ -16,11 +16,7 @@ sys.stdout.flush()
 
 print "<pre>"
 
-#os.system('ls')
-
-for fn in os.system('ls'):
-	print fn
-
+os.system('ls')
 
 print "<pre>"
 

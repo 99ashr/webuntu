@@ -1,19 +1,23 @@
 #!/usr/bin/python
 
 import cgi
-import  commands
 import cgitb
+import os
+import sys
 cgitb.enable()
 
-
-
-print("Content-type:text/html\r\n\r\n")
-print  ("<html><head><title>Present Working Directory</title>")
+print 'Content-type: text/html'
+print ''
+print  ("<html><head><title>List of Files & Directories</title>")
 print ("<body><h1>")
 
-# gettting  html data 
-mypage_data=cgi.FieldStorage()
+
+sys.stdout.flush()
+
 print "<pre>"
-print   commands.getoutput("pwd")
+
+os.getcwd()
+
 print "<pre>"
+
 print ("</h1></body></html>")
