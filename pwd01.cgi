@@ -16,9 +16,7 @@ sys.stdout.flush()
 
 print "<pre>"
 
-pwd=os.getcwd()
-
-print (pwd)
+os.getcwd()
 
 print "<pre>"
 

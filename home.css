@@ -52,9 +52,11 @@ ul{
 	font-size: 30px; 	
 	margin-top: 2px;
 }
-div h1 #home{
+
+.header nav{
 	margin-top: 8%;
-	color: firebrick;
+	color: orange;
+	font-size: 70px;
 	padding: 1px;
 	opacity: 0.8;
 	font-weight: bold;
@@ -62,6 +64,10 @@ div h1 #home{
 	text-align: center;
 	text-decoration: underline;
 	//background-color: #fff;
+}
+.header nav a{
+	color: orange;
+
 }
 
 h4{
