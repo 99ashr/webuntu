@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#content{
+	width: 100%;
+	height: 100vh;
+	background: url("webuntu/backgrounds/2xQILY.jpg") no-repeat;
+	background-size: cover;
+}
+
+h1{
+	color: #fff;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 50px;
+	font-family: verdana;
+}
+
+#load{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: #000 url("webuntu/logos/load/5.gif") 50%;
+	background-repeat: no-repeat;
+	
+}
