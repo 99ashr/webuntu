@@ -6,6 +6,14 @@
 @import url(sheet_input.css);
 
 /*!!!Loading animation!!!*/
+
+#content{
+	width: 100%;
+	height: 100vh;
+	/*background: url("backgrounds/2xQILY.jpg") no-repeat;
+	background-size: cover;*/
+}
+
 #load{
 	position: absolute;
 	width: 100%;
