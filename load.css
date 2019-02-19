@@ -1,3 +1,5 @@
+
+
 *{
 	margin: 0;
 	padding: 0;
@@ -6,7 +8,7 @@
 #content{
 	width: 100%;
 	height: 100vh;
-	background: url("webuntu/backgrounds/2xQILY.jpg") no-repeat;
+	background: url("backgrounds/2xQILY.jpg") no-repeat;
 	background-size: cover;
 }
 
@@ -27,7 +29,7 @@ h1{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	background: #000 url("webuntu/logos/load/5.gif") 50%;
+	background: #000 url("logos/load/171.gif") 50%;
 	background-repeat: no-repeat;
 	
 }
