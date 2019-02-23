@@ -1,13 +1,13 @@
 var loader;
 
 			function loadit (opacity) {
-				if(opacity<=0){
+				if(opacity<=0.2){
 					displayContent();
 				}
 				else{
 					loader.style.opacity=opacity;
 					window.setTimeout(function(){
-						loadit(opacity-0.03)
+						loadit(opacity-0.01)
 					},100);
 				}
 			}
