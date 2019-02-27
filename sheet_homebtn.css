@@ -1,0 +1,33 @@
+/*!!!Logo!!!*/
+#logo #img{
+	position: absolute;
+	margin-left: 60px;
+}
+/*!!!Header List ul!!!*/
+.header #header_bar{
+	margin-top: 0px;
+	float: right;
+	list-style-type: none;
+}
+ul{
+	list-style-type: none;
+}
+
+/*!!!Header List li*/
+.header #header_bar li{
+	margin-top: 0px;
+	margin-left: 10px;
+	display: inline-block;
+}
+/*!!!Home Link in Header!!!*/
+.header ul li#home a{
+	background-color: firebrick;
+	color: #ffffff;
+}
+/*!!!Links in Header!!!*/
+.header #header_bar li a{
+	border: 1px outset transparent;
+	border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+}
