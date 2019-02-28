@@ -1,17 +1,18 @@
 body{
-    margin: 0;
+    margin: 10;
     padding: 0;
-    background: url(backgrounds/2xQILY.jpg);
+    background: url(backgrounds/love_121-wallpaper-2560x1440.jpg);
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
 }
 
 .loginbox{
+    margin-top: 120px;
     width: 320px;
     height: 420px;
-    background: #000;
-    color: #fff;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),none;
+    color: darkgrey;
     top: 50%;
     left: 50%;
     position: absolute;
@@ -45,6 +46,7 @@ h1{
 .loginbox input{
     width: 100%;
     margin-bottom: 20px;
+
 }
 
 .loginbox input[type="text"], input[type="password"]
@@ -54,8 +56,9 @@ h1{
     background: transparent;
     outline: none;
     height: 40px;
-    color: #fff;
+    color: lightgrey;
     font-size: 16px;
+    font-weight: bold;
 }
 .loginbox input[type="submit"]
 {
@@ -70,19 +73,19 @@ h1{
 .loginbox input[type="submit"]:hover
 {
     cursor: pointer;
-    background: #ffc107;
+    background: lightblue;
     color: #000;
 }
 .loginbox a{
     text-decoration: none;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 20px;
-    color: darkgrey;
+    color: #fff;
 }
 
 .loginbox a:hover
 {
-    color: #ffc107;
+    color: orange;
 }
 
 
