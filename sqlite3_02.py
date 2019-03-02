@@ -7,9 +7,12 @@ def main():
 			con =sqlite3.connect('test.db')
 			cur=con.cursor()
 			print("Details: ")
-			cur.execute("Drop table if exists pets")
-			cur.execute("Create table pets (ID INT, Name TEXT, Price INT)")
-			cur.execute("Insert into pets values(1,'cat',400)")
+			# 
+			cur.executescript("""Drop table if exists pets;
+						create table pets(id int, name text, price int);
+						insert into pets values(1,'cat',400);
+						insert into pets values(2,'rat',300);
+						insert into pets values(3,'bird',700);""")
 			con.commit()
 			cur.execute("select * from pets")
 			data=cur.fetchall()
