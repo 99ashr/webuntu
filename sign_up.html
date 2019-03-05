@@ -3,10 +3,46 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Sign Up Here</title>
+	<link rel="stylesheet" href="sign_up.css">
 </head>
 <body>
 	<h1>Welcome to Webuntu</h1>
+	<br>
+	<hr><br>
 	<h3>sign up here</h3>
+<fieldset>
+			<legend><h1>Your Details:</h1></legend>
+				First Name:
+					<input type="text" size="25px" name="firstname"   placeholder="Enter Your FirstName Here"  required="required"/><br>
+				Last Name:
+					<input type="text" size="25px" name="lastname" placeholder="Enter Your LastName Here"  required="required"/><br>
+				Email:	
+					<input type="email" size="28px" name="Email" placeholder="Enter Your E-Mail Address Here"/><br>
+	</fieldset>
+	<fieldset>
+			<legend><h3>Your Review</h3></legend>
+				How did you hear about us?
+					<select name="source" size="1" multiple="multiple">
+						<option value="google" selected="selected">Google</option>
+						<option value="yahoo">Yahoo</option>
+						<option value="facebook">Facebook</option>
+						<option value="friends" selected="selected">Friends</option>
+						<option value="other">Others</option>
+					</select><br><br>
+				Would you visit again?<br>
+					<input type="radio" name="" value="Yes"/>
+				Yes
+					<input type="radio" name="" value="No"/>
+				No
+					<input type="radio" name="" value="Maybe"/>
+				Maybe
+				<br><br><br>
+				Comments:<br>
+						<textarea placeholder="comments" cols="20" rows="4"></textarea><br>
+							<input type="checkbox" name="" checked="checked"/>
+				sign me up for email updates <br><br>
+						<input type="submit" name="submit Review" value="submit Review" />
+	</fieldset>
 	
 </body>
 </html>
